@@ -67,3 +67,4 @@ if uploaded_file is not None:
     st.write("Caption: ", caption)
 
 st.write("This app uses a CNN-LSTM model trained on the Flickr8k dataset to generate captions for images. The model is based on the VGG16 architecture for feature extraction and an LSTM network for sequence generation.")
+
